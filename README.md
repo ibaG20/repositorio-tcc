@@ -1,7 +1,5 @@
 # 📅 PWA de Agendamento para Microempreendedores (TCC)
 
-[Status](https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-yellow)
-
 [License](https://img.shields.io/badge/LICENSE-MIT-green)
 
 > Uma solução de agendamento Cache-First, escalável e de baixo custo, projetada para profissionalizar o atendimento do MEI brasileiro.
@@ -75,16 +73,6 @@ A documentação técnica completa e os diagramas de modelagem estão disponíve
 - [x]  Agendamento em 3 cliques.
 - [x]  **Email de Confirmação:** Contendo link único de cancelamento.
 - [x]  Cancelamento autônomo via Token.
-
----
-
-## 🚀 Como Rodar Localmente
-
-Você vai precisar de `Node.js 18+` e uma conta no Supabase.
-
-1. **Clone o repositório**
-    
-    ```bash
-    git clone [<https://github.com/seu-usuario/seu-repo.git>](<https://github.com/seu-usuario/seu-repo.git>)
+u-usuario/seu-repo.git>](<https://github.com/seu-usuario/seu-repo.git>)
     cd seu-repo
     ```
