@@ -1,15 +1,11 @@
 # 📅 PWA de Agendamento para Microempreendedores (TCC)
 
-[License](https://img.shields.io/badge/LICENSE-MIT-green)
-
 > Uma solução de agendamento Cache-First, escalável e de baixo custo, projetada para profissionalizar o atendimento do MEI brasileiro.
 > 
 
 ---
 
 ## 🎨 Design & Prototipagem
-
-Antes de ver o código, veja como essa beleza foi projetada. A interface segue princípios *Mobile-First* focados em usabilidade extrema.
 
 [Figma](https://img.shields.io/badge/Acesse_o_Layout-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
@@ -19,11 +15,11 @@ Antes de ver o código, veja como essa beleza foi projetada. A interface segue p
 
 Este projeto é parte do Trabalho de Conclusão de Curso (TCC) de Engenharia de Software da UTFPR.
 
-O objetivo é resolver o caos da gestão de tempo de microempreendedores (manicures, barbeiros, consultores) que dependem de agendamentos manuais via WhatsApp. Diferente de soluções caras ou limitadas do mercado, este PWA oferece uma experiência fluida, profissional e automatizada.
+O objetivo é resolver o problema da gestão de tempo de microempreendedores (manicures, barbeiros, consultores) que dependem de agendamentos manuais via WhatsApp. Diferente de soluções caras ou limitadas do mercado, este PWA oferece uma experiência fluida, profissional e simplificada.
 
 ### 🚀 Diferenciais Arquiteturais
 
-Esqueça o "Offline-First" complexo. Este projeto utiliza uma arquitetura **Cache-First na Borda**:
+O projeto utiliza uma arquitetura **Cache-First na Borda**:
 
 - **⚡ Performance Extrema:** Consultas de disponibilidade batem no Cache (Redis/Upstash) e retornam em <50ms.
 - **💸 Custo Marginal:** Arquitetura Serverless (Supabase) mantém o custo operacional próximo de zero (R$ 0,07/usuário).
@@ -73,6 +69,3 @@ A documentação técnica completa e os diagramas de modelagem estão disponíve
 - [x]  Agendamento em 3 cliques.
 - [x]  **Email de Confirmação:** Contendo link único de cancelamento.
 - [x]  Cancelamento autônomo via Token.
-u-usuario/seu-repo.git>](<https://github.com/seu-usuario/seu-repo.git>)
-    cd seu-repo
-    ```
