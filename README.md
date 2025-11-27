@@ -35,20 +35,13 @@ Nós não usamos ferramentas de brinquedo.
 - **Backend (BaaS):** [Supabase](https://supabase.com/) (PostgreSQL, Auth, Edge Functions).
 - **Cache:** [Upstash](https://upstash.com/) (Serverless Redis).
 - **Emails:** [Resend](https://resend.com/) (Emails transacionais).
-- **Diagramas:** Mermaid & PlantUML.
+- **Diagramas:** Mermaid.
 
 ---
 
 ## 🧩 Arquitetura e Modelagem
 
-A documentação técnica completa e os diagramas de modelagem estão disponíveis na pasta `/docs` deste repositório ou abaixo:
-
-| Artefato | Descrição |
-| --- | --- |
-| [**Diagrama Arquitetural**](https://www.notion.so/docs/arquitetura.png) | Visão geral dos componentes (Vercel, Supabase, Redis). |
-| [**Diagrama ER (Banco)**](https://www.notion.so/docs/der.png) | Estrutura do PostgreSQL (Providers, Rules, Appointments). |
-| [**Casos de Uso**](https://www.notion.so/docs/usecases.png) | Atores e fluxos principais do sistema. |
-| [**Fluxo de Agendamento**](https://www.notion.so/docs/sequence_booking.png) | Diagrama de sequência da transação ACID. |
+A documentação técnica completa e os diagramas de modelagem estão disponíveis na rais do repositório:
 
 ---
 
@@ -56,7 +49,7 @@ A documentação técnica completa e os diagramas de modelagem estão disponíve
 
 ### 👨‍ Prestador de Serviço
 
-- [x]  Login seguro (Magic Link/Social).
+- [x]  Login seguro.
 - [x]  **Gestão de Regras de Horário:** Criar intervalos de trabalho flexíveis (ex: "Segunda 09-12h").
 - [x]  **Exceções:** Bloquear dias específicos (Férias/Médico) ou adicionar horários extras.
 - [x]  Cancelar agendamentos (com notificação automática).
