@@ -20,8 +20,8 @@ O objetivo é resolver o problema da gestão de tempo de microempreendedores (ma
 ### 🚀 Diferenciais Arquiteturais
 
 Ferramentas utilizadas
-- **⚡ Performance Extrema:** Consultas de disponibilidade batem no Cache (Redis/Upstash) e retornam em <50ms.
-- **💸 Custo Marginal:** Arquitetura Serverless (Supabase) mantém o custo operacional próximo de zero (R$ 0,07/usuário).
+- **⚡ Performance:** Consultas de disponibilidade batem no Cache (Redis/Upstash) e retornam em <50ms.
+- **💸 Custo Baixo:** Arquitetura Serverless (Supabase) mantém o custo operacional próximo de zero (R$ 0,07/usuário).
 - **🛡️ Segurança:** Transações ACID para evitar *race conditions* e Row Level Security (RLS) para proteção de dados.
 
 ---
