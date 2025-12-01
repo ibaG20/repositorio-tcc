@@ -19,16 +19,13 @@ O objetivo é resolver o problema da gestão de tempo de microempreendedores (ma
 
 ### 🚀 Diferenciais Arquiteturais
 
-Ferramentas utilizadas
 - **⚡ Performance:** Consultas de disponibilidade batem no Cache (Redis/Upstash) e retornam em <50ms.
 - **💸 Custo Baixo:** Arquitetura Serverless (Supabase) mantém o custo operacional próximo de zero (R$ 0,07/usuário).
 - **🛡️ Segurança:** Transações ACID para evitar *race conditions* e Row Level Security (RLS) para proteção de dados.
 
 ---
 
-## 🛠️ Tech Stack 
-
-Ferrametas que serão utilizadas.
+## 🛠️ Ferramentas
 
 - **Frontend:** [Next.js 14](https://nextjs.org/) (App Router, React Server Components) + Tailwind CSS.
 - **Backend (BaaS):** [Supabase](https://supabase.com/) (PostgreSQL, Auth, Edge Functions).
