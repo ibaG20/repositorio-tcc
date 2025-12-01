@@ -7,7 +7,7 @@
 
 ## 🎨 Design & Prototipagem
 
-[Figma](https://img.shields.io/badge/Acesse_o_Layout-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+[Figma](https://www.figma.com/design/LoxvUkLkJ8iMVpZQAbBdND/The-Loop-Agendas?node-id=3-376&p=f&t=S0AvKNvxcd4NIQY1-0)
 
 ---
 
@@ -19,17 +19,16 @@ O objetivo é resolver o problema da gestão de tempo de microempreendedores (ma
 
 ### 🚀 Diferenciais Arquiteturais
 
-O projeto utiliza uma arquitetura **Cache-First na Borda**:
-
+Ferramentas utilizadas
 - **⚡ Performance Extrema:** Consultas de disponibilidade batem no Cache (Redis/Upstash) e retornam em <50ms.
 - **💸 Custo Marginal:** Arquitetura Serverless (Supabase) mantém o custo operacional próximo de zero (R$ 0,07/usuário).
 - **🛡️ Segurança:** Transações ACID para evitar *race conditions* e Row Level Security (RLS) para proteção de dados.
 
 ---
 
-## 🛠️ Tech Stack (A Melhor do Mercado)
+## 🛠️ Tech Stack 
 
-Nós não usamos ferramentas de brinquedo.
+Ferrametas que serão utilizadas.
 
 - **Frontend:** [Next.js 14](https://nextjs.org/) (App Router, React Server Components) + Tailwind CSS.
 - **Backend (BaaS):** [Supabase](https://supabase.com/) (PostgreSQL, Auth, Edge Functions).
@@ -41,7 +40,7 @@ Nós não usamos ferramentas de brinquedo.
 
 ## 🧩 Arquitetura e Modelagem
 
-A documentação técnica completa e os diagramas de modelagem estão disponíveis na rais do repositório:
+A documentação técnica completa e os diagramas de modelagem estão disponíveis na raiz do repositório:
 
 ---
 
